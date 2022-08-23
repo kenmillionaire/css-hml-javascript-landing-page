@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Frontend Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>I am Excited 💃 about Frontend development!</h1>
+
+    <h2>Thanks to SheCodes 🙏</h2>
+
+    <img src="https://i.pinimg.com/564x/b6/61/d7/b661d70c144e3e22210f4853621fdfe5.jpg" alt="Frontend dev. path">
+
+    <p>
+      I am a mother of three and a Nigerian Lady. Wow...I was so excited when I got the mail from SheCodes
+      for a scholarship. I want to appreciate SheCodes for giving me this opportunity to learn and upgrade my skills.
+      This is a very promising profession and it is worth devoting my time and energy.
+      God will make me what the nations are looking for.
+
+    </p>
+    <a href="shecodes.io" target="_blank" class="learn-more">
+      Learn more on shecodes blog</a>
+
+
+    <button class="enroll-button"> 📝 Enroll Now 📝 </button>
+
+    <p class="footer"> This page was built by
+      <a href="www.instagram.com/kenosobs" target="_blank" class="kenny">
+        Kehinde Oyeronke Osoba
+      </a>
+
+    </p>
+
+
+    <script>
+
+      function enroll() {
+        let name = prompt("what is your name");
+        let email = prompt("what is your email address");
+        let emoji = prompt("what is your favourite emoji?");
+
+        alert(
+          "Thank you  " +
+          name +
+          "! we will be in touch by email, meanwhile you can explore SheCode Courses!" +
+          emoji);
+      }
+
+      let enrollButton = document.querySelector(".enroll-button");
+      enrollButton.addEventListener("click", enroll);
+    </script>
+  </div>
+</body>
+
+</html>

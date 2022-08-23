@@ -1,0 +1,97 @@
+h1 {
+  color: rgb(231, 28, 231);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(58, 8, 105);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(231, 28, 231);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: linear-gradient(
+    102.7deg,
+    rgb(253, 218, 255) 8.2%,
+    rgb(223, 173, 252) 19.6%,
+    rgb(173, 205, 252) 36.8%,
+    rgb(173, 252, 244) 73.2%,
+    rgb(202, 248, 208) 90.9%
+  );
+  padding: 30px 60px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 500px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.learn-more {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(231, 28, 231);
+  font-size: 20px;
+}
+
+.learn-more:hover {
+  color: azure;
+  background-color: blueviolet;
+  text-decoration: underline;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background: rgb(231, 28, 231);
+  color: azure;
+  font-size: 24px;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 5px 5px 10px rgb(17, 1, 17);
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kenny {
+  color: rgb(231, 28, 231);
+}
+
+.kenny:hover {
+  color: azure;
+  background-color: blueviolet;
+  text-decoration: underline;
+}
